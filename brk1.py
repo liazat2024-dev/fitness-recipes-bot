@@ -124,7 +124,7 @@ def post_promo():
         print("ERROR POST PROMO:", e)
 
 # --- Таймзона Нью-Йорк расписание ---
-schedule.every().day.at("10:37").do(post_recipe)
+schedule.every().day.at("10:06").do(post_recipe)
 schedule.every().day.at("13:00").do(post_recipe)
 schedule.every().day.at("16:00").do(post_recipe)
 schedule.every().day.at("20:00").do(post_promo)
